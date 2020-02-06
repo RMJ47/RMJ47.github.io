@@ -1,0 +1,40 @@
+h1{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 2em;
+}
+img{
+    width: 20em;
+}
+body{
+    background-color: purple;
+}
+h2{
+    text-decoration: underline;
+    color: white;
+    margin-left: 4em;
+}
+a{
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+a:hover{
+    color: yellow;
+}
+a:visited{
+    color: lightblue;
+}
+p{
+    color: white;
+}
+footer{
+    text-align: center;
+  }

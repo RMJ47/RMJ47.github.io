@@ -1,0 +1,35 @@
+body {
+    color:#8a2be2;
+    width: 50%;
+    text-align: center;
+    margin-left: 22em;
+}
+img { 
+ width: 200px;
+ float: right;
+ 
+}
+h1 {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+      }
+li{
+  list-style: none;
+}
+
+footer{
+  background: lightblue;
+  text-align: center;
+}
+h3{
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+header{
+  text-align: center;
+  background-color: lightblue;
+}
+main{
+  text-align: left;
+}
+

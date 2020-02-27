@@ -1,0 +1,16 @@
+.responsive li{
+    display: block;
+}
+a:hover{
+    color: blue;
+
+
+}
+.active{
+
+background-color: coral;
+}
+.hidden{
+
+display: none;    
+}

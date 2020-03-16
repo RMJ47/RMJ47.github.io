@@ -1,0 +1,132 @@
+Medium css
+@media only screen and (min-width: 600px){
+    [class*="col-"]{
+        width: 70%;
+    }
+    .top{
+        text-align: center;
+    }
+    body{
+        background-color: #222629;
+        font-family: 'Dosis', sans-serif;
+        margin: 1em;
+        padding: 1.1em;
+        grid-gap: 1.2em;
+        margin: auto;
+        padding: 2em;
+        color: #86C232
+    
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        padding: 2em;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        border-style: double;
+        border-radius: 1em;
+        list-style: none;
+        padding: 1em;
+        font-size: 1.5em;
+    }
+    li{
+        font-family: 'Dosis', sans-serif;
+        color: #86C232;
+        list-style: none;
+    }
+    li>a {
+        text-decoration: none;
+        font-family: 'Dosis', sans-serif;
+        border-radius: 1em;
+        color: #86C232;
+    }
+    ul{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-evenly;
+       background-color: #474b4f;
+        border-radius: 2em;
+        border-style: inset;
+        text-decoration: none;
+        padding: .3em;
+        font-family: 'Dosis', sans-serif;
+        color: #628E25;
+    
+    }
+    /* class selectors*/
+    .highlight{
+        font-weight: bold;
+    }
+    /* id selectors */
+    a:hover{
+        color: #628e25;
+    }
+    a:active{
+        color: #222629;
+    }
+    footer{
+        display: grid;
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        border-radius: 1em;
+        padding: 1em;
+        background-color: #474b4f;
+        color: #61892f;
+        grid-gap: .5em;
+        min-width: 2em;
+    }
+    .motto{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        color: #61892f;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+    }
+    .navigation a{
+        padding: 1em;
+    }
+    .navigation li:first-child {
+        display: none;
+    }
+    .navigation li {
+        display: block;
+    }
+    .active{
+        background: radial-gradient(#474B4F, #222629);
+        font-weight: 100;
+    }
+    #map{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .hero-text{
+        display: flex;
+        align-items: end;
+        box-shadow: 5px 5px 30px;
+        position: absolute;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column: 3/4;
+        font-size: .8em;
+    }
+    .hero-image{
+        display: flex;
+        float: right;
+    }
+}

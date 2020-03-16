@@ -1,0 +1,125 @@
+
+Large css
+@media only screen and (min-width: 992px){
+    [class*="col-"]{
+        width: 50%;
+    }
+.top{
+    text-align: center;
+}
+body{
+    background-color: #222629;
+    font-family: 'Dosis', sans-serif;
+    margin: 1em;
+    padding: 1em;
+    margin: auto;
+    max-width: 60%;
+    padding: 2em;
+    color: #86C232;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    border-style: double;
+    border-radius: 1em;
+    list-style: none;
+    padding: 1em;
+    font-size: 1.5em;
+}
+li{
+    font-family: 'Dosis', sans-serif;
+    list-style: none;
+    color: #86C232;
+}
+li>a {
+    text-decoration: none;
+    font-family: 'Dosis', sans-serif;
+    border-radius: 2em;
+    color: #86C232;
+}
+ul{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #474b4f;
+    border-radius: 2em;
+    border-style: inset;
+    text-decoration: none;
+    padding: .5em;
+    font-family: 'Dosis', sans-serif;
+    color: #628e25;
+
+
+}
+/* class selectors*/
+.highlight{
+    font-weight: bold;
+}
+/* id selectors */
+a:hover{
+    color: #628E25;
+}
+a:active{
+    color: #222629;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #474b4f;
+    color: #61892f;
+    grid-gap: .5em;
+    min-width: 2em;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+}
+.motto{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #86C232;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    padding: 2em;
+}
+.navigation {
+    display: flex;
+    padding: 1em;
+    border: 1px solid;
+    justify-content: space-between;
+}
+
+.navigation a{
+    padding: 1em;
+}
+.active{
+    background: radial-gradient(#474B4F, #222629);
+    font-weight: 100;
+}
+
+.navigation li:first-child {
+    display: none;
+}
+.navigation li {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+
+}
+}

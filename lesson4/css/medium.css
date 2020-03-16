@@ -7,14 +7,14 @@ Medium css
         text-align: center;
     }
     body{
-        background-color: #222629;
+        background-color: blue;
         font-family: 'Dosis', sans-serif;
         margin: 1em;
         padding: 1.1em;
         grid-gap: 1.2em;
         margin: auto;
         padding: 2em;
-        color: #86C232
+        color: red
     
     }
     main {
@@ -39,28 +39,28 @@ Medium css
     }
     li{
         font-family: 'Dosis', sans-serif;
-        color: #86C232;
+        color: white;
         list-style: none;
     }
     li>a {
         text-decoration: none;
         font-family: 'Dosis', sans-serif;
         border-radius: 1em;
-        color: #86C232;
+        color: white;
     }
     ul{
-        border: 1px solid black;
+        border: 1px solid blue;
         display: flex;
         flex-direction: row;
         justify-content: center;
         justify-content: space-evenly;
-       background-color: #474b4f;
+       background-color:blue;
         border-radius: 2em;
         border-style: inset;
         text-decoration: none;
         padding: .3em;
         font-family: 'Dosis', sans-serif;
-        color: #628E25;
+        color:white;
     
     }
     /* class selectors*/
@@ -69,20 +69,20 @@ Medium css
     }
     /* id selectors */
     a:hover{
-        color: #628e25;
+        color: white;
     }
     a:active{
-        color: #222629;
+        color: blue;
     }
     footer{
         display: grid;
         text-align: center;
         border-style: solid;
-        border-color: black;
+        border-color: blue;
         border-radius: 1em;
         padding: 1em;
-        background-color: #474b4f;
-        color: #61892f;
+        background-color: blue;
+        color: white;
         grid-gap: .5em;
         min-width: 2em;
     }
@@ -91,7 +91,7 @@ Medium css
     }
     h1{
         text-align: center;
-        color: #61892f;
+        color: white;
     }
     .navigation {
         display: flex;
@@ -107,7 +107,7 @@ Medium css
         display: block;
     }
     .active{
-        background: radial-gradient(#474B4F, #222629);
+        background: radial-gradient(blue, blue);
         font-weight: 100;
     }
     #map{

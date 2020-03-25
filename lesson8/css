@@ -1,0 +1,47 @@
+body {
+    font-family: 'ubuntu; sans-serif
+}
+table, tr,th,td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: .5em;
+    text-align: center;
+    
+}
+th[colspan="3"]{
+    background-color: #7fb9c2
+    color: black;
+
+}
+
+th {
+    background-color: #628ca6;
+    color: white;
+}
+
+table{
+    box-shadow: .25em .5em #628ca6;
+    box-shadow grey;
+    box-shadow: transparent;
+}
+
+tr: nth-child(even){
+    background: #e7ffed;
+}
+
+tr{
+    background-color #e7foed;
+}
+td[colspan="3"]{
+    margin: 5px;
+    padding: 5px;
+    font-size: 12px;
+    background-color; #7fb9c2;
+}
+.Friday{
+    font-style:italic;
+}
+td[colspan="1"]{
+    background-color; #628ca6;
+    color: white;
+}

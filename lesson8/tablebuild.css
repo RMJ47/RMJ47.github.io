@@ -1,5 +1,5 @@
 body {
-    font-family: 'ubuntu; sans-serif
+    font-family: 'ubuntu; sans-serif'
 }
 table, tr,th,td{
     border: 1px solid grey;
@@ -9,7 +9,7 @@ table, tr,th,td{
     
 }
 th[colspan="3"]{
-    background-color: #7fb9c2
+    background-color: #7fb9c2;
     color: black;
 
 }
@@ -21,27 +21,27 @@ th {
 
 table{
     box-shadow: .25em .5em #628ca6;
-    box-shadow grey;
+    box-shadow: grey;
     box-shadow: transparent;
 }
 
-tr: nth-child(even){
+tr:nth-child(even){
     background: #e7ffed;
 }
 
 tr{
-    background-color #e7foed;
+    background-color: #e7ffed;
 }
 td[colspan="3"]{
     margin: 5px;
     padding: 5px;
     font-size: 12px;
-    background-color; #7fb9c2;
+    background-color: #7fb9c2;
 }
 .Friday{
     font-style:italic;
 }
 td[colspan="1"]{
-    background-color; #628ca6;
+    background-color:#628ca6;
     color: white;
 }

@@ -10,6 +10,7 @@ nav{
     max-width: 80%;
     overflow: hidden;
     margin-left: 3em;
+    list-style: none;
 }
 
 .navigation{

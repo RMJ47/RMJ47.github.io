@@ -1,0 +1,33 @@
+body{
+
+    font-family: 'Dosis', sans-serif; 
+    color:purple;
+    background-color: seashell;
+
+}
+nav{ 
+
+    max-width: 80%;
+    overflow: hidden;
+    margin-left: 3em;
+}
+
+.navigation{
+list-style: none;
+text-align: center;
+
+
+}
+.navigation li:first-child{
+display: block;
+
+}
+
+.navigation li{
+display: none;
+
+}
+.responsive li {
+display: block;
+
+}

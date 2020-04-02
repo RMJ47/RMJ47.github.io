@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soda Spring</title>
+    <link rel="stylesheet" href="/lesson10/css/small.css">
+    <link rel="stylesheet" href="/lesson10/css/med.css">
+    <link rel="stylesheet" href="/lesson10/css/large.css">
+    
+</head>
+<body onload="getFiveDayForecast('5607916')">
+    <header>
+        <main>
+        <section>
+            <img src="/lesson2/blue sky.jpg" alt="logo" width=20%>
+        </section>
+        <section class="title">
+            <h1>Blue Sky Weather</h1>
+            <h4>What weather is all about</h4>
+        </section>
+        <nav>
+            <ul class="navigation"></ul>
+        </nav>
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="/lesson10/homepage.html"></a></li> 
+            <li class="preston" ><a href="/lesson10/preston.html"></a></li>
+            <li><a href="/lesson10/sodaspring.html"></a></li>
+            <li><a href="/lesson10/fishhaven.html"></a></li>
+            <li><a href="/lesson10/stormcenter.html"></a></li> 
+        </ul>
+        </nav>
+        </header>
+    <section class="hero">
+        <img class="heroimg" src="/lesson10/img/IMG_1017-1000x750.jpgsodasprings2.jpg" alt="Image of soda spring">
+
+        <section id="weatherSummary">
+            <div>
+                <span>Current Temperature:</span>
+                <span id="currentTemp"></span>
+            </div>
+            <div>
+                <span>Wind Speed:</span>
+                <span id="windSpeed"></span>
+            </div>
+            <div>
+                <span>Wind Chill: </span>
+                <span id="windChill"></span>
+            </div>
+        </section>
+    </section>
+    <h1 class="forecastbegin">Five Day Forecast: </h1>
+    <li class="tableWeather">
+        <table>
+            <tr>
+            <th>Day</th>
+            <th id="day1"></th>
+            <th id="day2"></th>
+            <th id="day3"></th>
+            <th id="day4"></th>
+            <th id="day5"></th>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><img id="img1" src="" alt=""></td>
+                <td><img id="img2" src="" alt=""></td>
+                <td><img id="img3" src="" alt=""></td>
+                <td><img id="img4" src="" alt=""></td>
+                <td><img id="img5" src="" alt=""></td>
+            </tr>
+
+            <tr>
+                <td id="forecasttitle">Forecast</td>
+                <td id="temp1"></td>
+                <td id="temp2"></td>
+                <td id="temp3"></td>
+                <td id="temp4"></td>
+                <td id="temp5"></td>
+            </tr>
+        </table>
+    </li>
+<br>
+<p class="paragraph"><!--Put in description of the city here. you can say things such as
+welcome to (city) and a breif description about it--></p>
+<br>
+<p class="paragraph1">Events that are coming next year: </p>
+<li id="event">
+<ul id="prestonEvents1"></ul>
+<ul id="prestonEvents2"></ul>
+<ul id="prestonEvents3"></ul>
+</li>
+</main>
+<footer>
+<p>&copy; <span id="currentDate"></span> | Rose Jacobs | BYU-Idaho </p>
+</footer>
+
+<script src="/lesson10/js/weatherapi.js"></script>
+<script src="/lesson10/js/event.js"></script>
+<script src="/lesson10/js/windchill.js"></script>
+
+</body>
+</html>   
+</body>
+</html>

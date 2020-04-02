@@ -69,3 +69,25 @@ document.getElementById("pancake").removeAttribute("class", "hidden");
 
 
 }
+const requestURL='https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(requestURL)
+.then(response=> {
+    response.json()
+    .then( response=>{
+const towns = response.towns;
+towns.forEach(
+    (town) =>{
+    if (town.name.toLowerCase() === 'fish haven') {
+        document.querySelector('#fishHavenMotto')
+        .textContent=town.motto;
+        document.querySelector('#FishHavenYearFounded')
+        .textContent=town.YearFounded;
+        document.querySelector('#fishHavenCurrentPopulation')
+        .textContent=town.currentPopulation;
+        document.querySelector('fishHavenAverageRainfall')
+        .textContent=town.averageRainfall;
+    }else if (town.name.toLowerCase()==='preston'){
+
+    }});
+})
+});

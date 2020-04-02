@@ -47,8 +47,14 @@ fetch(requestURL)
                   //add images
                   let imageDiv = document.createElement('div');
                   let image = document.createElement('img');
-                  image.setAttribute('src'),prophet.imageur);
-                  image.setAttribute('alt')
+                  image.setAttribute('src',prophet.imageurl);
+                  image.setAttribute('alt', prophet.name + ' ' + prophet.lastname + ' - ' + prophet.order);
+
+                  imageDiv.appendChild(image);
+
+                  article.appendChild(image);
+
+                  document.querySelector('section.prophets').appendChild(article);
                 });
               });
-  });
+

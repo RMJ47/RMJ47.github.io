@@ -1,0 +1,86 @@
+@media screen and (min-width: 60em) {
+    #weatherSummary{
+        display: block;
+        top: 30px;
+        background-color: ;
+        border: 3px solid color here;
+        padding: .5rem;
+        box-shadow: 0 0 30px;
+        margin-left: 9em;
+        font-size: 1.5em;
+    }
+
+    nav {
+        margin-left: 8em;
+    }
+
+    footer {
+        margin-left: 8em;
+    }
+
+    body {
+        font-family: 'Dosis', sans-serif;
+        margin-left: 5em;
+    }
+
+    #logo {
+        max-width: 12.5%;
+    }
+
+    .navigation li a {
+        color: ;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: -.5em;
+
+    }
+    .heroimg{
+        min-width: 69em;
+        margin-left: 9em;
+    }
+
+    /* table stuff */
+    .forecastbegin{
+        display: ;
+        text-align: center;
+        margin-right: 6em;
+    }
+    .tableWeather{
+        display: run-in;
+        margin-left: 30em;
+        display: flex;
+    }
+    #day1, #day2, #day3, #day4, #day5{
+        padding: 1em;
+    }
+    #forecasttitle{
+        font-size: 2em;
+        text-align: center;
+    }
+     /*event and paragraph*/
+     .paragraph{
+        font-size: 1.4em;
+        max-width: 80%;
+        margin-left: 6em;
+        margin-top: 1em;
+    }
+    .paragraph1{
+        font-size: 2.4em;
+        margin-left: 5em;
+    }
+    #event{
+        font-size: 1.5em;
+        margin-left: 7em;
+    
+    
+    }
+    .tableWeather{
+        visibility: visible;
+    }
+    .forecastbegin{
+        visibility: visible;
+    }
+
+}

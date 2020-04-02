@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storm Center</title>
+</head>
+<body>
+<p></p>
+<main>
+    <form action="thanks.html"method = "GET">
+
+<div>
+<label for="fullname">Full Name:</label>
+<input type="text"id= "fullName"name="fullName">
+</div>
+
+<div>
+<label for="email">Email:</label>
+<input type="email"id="email"name="email"placeholder="user@email.com">
+</div>
+
+<div>
+<label for="mobilePhone">Phone Number:
+</label>
+<input type="tel"id="mobilePhone"name="mobliePhone"required>
+</div>
+
+<div>
+<label for="zipCode">Area Code:</label>
+<input type="number"id="zipCode"name="zipCode"required>
+</div>
+
+<div>
+<label for="stormDate">Storm Date:</label>
+<input type="date"id="StormDate"name="stormDate">
+</div>
+
+<div>
+<label for="stormType">Storm Type:</label>
+<input list="stormType">
+
+<datalist id="stormType">
+<option value="FlashFlood"></option>
+<option value="Hail"></option>
+<option value="Hurricane"></option>
+<option value="Thunderstorm"></option>
+<option value="Tornado"></option>
+</datalist>
+
+<div>
+<input type="submit"value="submit">
+</div>
+</form>
+</main>
+</body>
+</html>

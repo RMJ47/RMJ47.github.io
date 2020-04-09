@@ -32,27 +32,27 @@ section {
 li{
     font-family: 'Dosis', sans-serif;
     list-style: none;
-    color: #86C232;
+    color: blue;
 }
 li>a {
     text-decoration: none;
     font-family: 'Dosis', sans-serif;
     border-radius: 2em;
-    color: #86C232;
+    color:white;
 }
 ul{
-    border: 1px solid black;
+    border: 1px solid blue;
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-content: space-between;
-    background-color: #474b4f;
+    background-color: white;
     border-radius: 2em;
     border-style: inset;
     text-decoration: none;
     padding: .5em;
     font-family: 'Dosis', sans-serif;
-    color: #628e25;
+    color: blue;
 
 
 }
@@ -62,21 +62,21 @@ ul{
 }
 /* id selectors */
 a:hover{
-    color: #628E25;
+    color: white;
 }
 a:active{
-    color: #222629;
+    color: blue;
 }
 
 
 footer{
     text-align: center;
-    background-color: #474b4f;
-    color: #61892f;
+    background-color: blue;
+    color: white;
     grid-gap: .5em;
     min-width: 2em;
     border-style: solid;
-    border-color: black;
+    border-color:blue;
     border-radius: 1em;
     padding: 1em;
     display: flex;
@@ -87,7 +87,7 @@ footer{
 }
 h1{
     text-align: center;
-    color: #86C232;
+    color: white;
 }
 main{
     display: flex;
@@ -108,7 +108,7 @@ main{
     padding: 1em;
 }
 .active{
-    background: radial-gradient(#474B4F, #222629);
+    background: radial-gradient blue, white);
     font-weight: 100;
 }
 

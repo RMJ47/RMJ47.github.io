@@ -1,5 +1,5 @@
 Medium css
-@media only screen and (min-width: 600px){
+@ media only screen and (min-width: 600px){
     [class*="col-"]{
         width: 70%;
     }
@@ -54,7 +54,7 @@ Medium css
         flex-direction: row;
         justify-content: center;
         justify-content: space-evenly;
-       background-color:blue;
+        background-color:blue;
         border-radius: 2em;
         border-style: inset;
         text-decoration: none;

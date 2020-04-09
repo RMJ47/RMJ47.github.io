@@ -42,7 +42,7 @@ function toggleMenu() {
 	document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
 
-/create 5 day forecast
+
 let currentDay = weekDayNumber;
 
 for (let i = 1; i < 6; i++) {

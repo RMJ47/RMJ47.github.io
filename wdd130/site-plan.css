@@ -3,14 +3,14 @@
 :root {
     --primary-color: #396E94;
     --secondary-color: #E7C24F;
-    --accent1-color: #A43312;
+    --accent1-color: #460f0f;
     --accent2-color: white;
     --heading-font: "IM Fell French Canon SC";
     --paragraph-font: Lato, Helvetica, sans-serif
 }
 
 html {
-    background-color: var(--primary-color)
+    background-color: var(--primary-color #396E94);
 }
 
 body {
@@ -31,23 +31,23 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color:
+    color: var(accent 1-color #460f0f);
 }
 
 header {
     padding: 1em;
     text-align: center;
-    color: var(--accent2-color);
-    background-color:
+    color: var(accent2-color);
+    background-color: var(#6de74f)
 }
 
 header>h1 {
-    color:
+    color: var( rgb(255, 255, 255))
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    color:var(primary-color #396E94);
     padding: 1em
 }
 
@@ -68,23 +68,23 @@ p {
 }
 
 .primary {
-    background-color: var(--primary-color)
+    background-color: var(--primary-color #396E94);
 }
 
 .secondary {
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color #E7C24F);
 }
 
 .accent1 {
-    background-color: var(--accent1-color)
+    background-color: var(--accent1-color #460f0f);
 }
 
 .accent2 {
-    background-color: var(--accent2-color)
+    background-color: var(--accent2-color white);
 }
 
 nav {
-    background-color: ;
+    background-color:var (secondary-color #49463b); 
     line-height: 3em;
     text-align: center;
     font-size: 1.2em
@@ -102,10 +102,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color:
+    color:var(--accent2-color white);
 }
 
-nav a:hover {
-    color: ;
-    background-color:
+        nav a:hover {
+    color:var(accent1-color #460f0f);
+    background-color:var(#12a47818);
 }

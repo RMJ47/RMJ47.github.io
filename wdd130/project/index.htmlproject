@@ -5,22 +5,25 @@
     <meta charset="utf-8">
     <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="This is a hotel chain with the headquarters in Bethesda,MD.
- That gives special hotel accommodations to near by temples of The Church of Jesus Christ of
- Latter-day Saints around the world. This company caters to temple workers, patrons and their family.
- While they are attending the Temples to perform sealings, weddings, receptions and also, for youth trips."
+    That gives special hotel accommodations to near by temples of The Church of Jesus Christ of
+    Latter-day Saints around the world.">
+  
   <title>Temple Inn & Suites|Your Home Away From Home|240-534-5823</title>
 
 </head>
 
 <body>
     <header>
+    <h1>Temple Inn & Suites</h1>
+    <img src="" alt="">
+
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="amentities.html" </a>Amentitles </li> 
-                 <li><a href="" </a> </li> 
-                <li><a href="" </a> </li>
-                               
+                <li><a href="amentities.html"Amentitles</a></li> 
+                 <li><a href="tenple.html"Temple</a></li> 
+                <li><a href="spotlight"Spotlight</a></li>
+                <li><a href="reservations"Reservation</a></li>             
                 </ul>
         </nav>
     </header>
@@ -30,7 +33,7 @@
                 Lorem ipsumh dolor sit amet consectetur adipisicing elit. Nemo, repudiandae?
                 Facere optio odio doloribus quam et dignissimos laudantium. Tenetur hic recusandae laudantium,
                 mollitia blanditiis expeditapariatur commodi aliquam numquam doloribus!</p>
-                <img src="http"alt="">
+                <img src="http://placekitten.com/350/400"alt="">
         </section>
     </main>
     <footer></footer>

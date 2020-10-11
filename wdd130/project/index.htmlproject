@@ -15,15 +15,15 @@
 <body>
     <header>
     <h1>Temple Inn & Suites</h1>
-    <img src="" alt="">
+    <img src="http://placeholder.com/300/400"alt="">
 
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="amentities.html"Amentitles</a></li> 
-                 <li><a href="tenple.html"Temple</a></li> 
-                <li><a href="spotlight"Spotlight</a></li>
-                <li><a href="reservations"Reservation</a></li>             
+                <li><a href="amentities.html"Amentitles">></a></li> 
+                 <li><a href="tenple.html"Temple"></a></li> 
+                <li><a href="spotlight"Spotlight"></a></li>
+                <li><a href="reservations"Reservation"></a></li>             
                 </ul>
         </nav>
     </header>
@@ -35,9 +35,24 @@
                 mollitia blanditiis expeditapariatur commodi aliquam numquam doloribus!</p>
                 <img src="http://placekitten.com/350/400"alt="">
         </section>
+        <h2>
+        
+        </h2>
+        <section>
+        <p>
+        Lorem ipsumh doloe sit amet!</p>
+        <img src="http://placekitten.com/350/400"alt="">
+
+
+        </p>
     </main>
-    <footer></footer>
-    <h1></h1>
+    <footer>
+    <ul>
+    <li><a href+"#"class="fa fa-facebaook"></a></li>
+    <li><a hreff="#" class="fa fa-twitter"></a>
+    </ul>
+     </footer>
+
     </head>
 
 </body>

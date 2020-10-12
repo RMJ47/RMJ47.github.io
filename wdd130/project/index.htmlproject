@@ -10,7 +10,7 @@
     Latter-day Saints around the world.">
   
   <title>Temple Inn & Suites|Your Home Away From Home|240-534-5823</title>
-
+<link rel="stylesheet"href="css/stylesheet.css">
 </head>
 
 <body>
@@ -28,6 +28,7 @@
                 <li><a href="reservations"Reservation"></a></li>             
                 </ul>
         </nav>
+        <
     </header>
     <main>
         <section>
@@ -44,12 +45,18 @@
         <img src="http://placekitten.com/350/400"alt="">
 
 
-        </p>
+      <h3> </h3>
+        <section>
+        <p>
+        Lorem ipsumh doloe sit amet!</p>
+        
     </main>
     <footer>
     <ul>
-    <li><a href+"#"class="fa fa-facebaook"></a></li>
-    <li><a hreff="#" class="fa fa-twitter"></a>
+    <li><a href="#"class="fa fa-facebaook"></a></li>
+     <li><a href="#" class="fa fa-twitter"></a></li>
+     <li><a href="#" class="fa fa-pinterest"></a></li>
+    
     </ul>
      </footer>
 

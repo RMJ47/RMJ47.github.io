@@ -1,0 +1,24 @@
+/*Style all Font icons*/
+.fa{ padding: 20px;
+    font-size: 30px;
+width: 50 px;
+text-align: center ;}
+text-decoration: none;
+}
+/*Color for each brand*/
+
+/* Facebook */
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+}
+ 
+.fa-twitter{
+    background: #55acee;
+    color: white
+
+}
+.fa-pinterest{
+    background: #cb2027;
+    color: white;
+}

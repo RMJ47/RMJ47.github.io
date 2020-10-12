@@ -1,10 +1,11 @@
 /*Style all Font icons*/
+
 .fa{ padding: 20px;
     font-size: 30px;
 width: 50 px;
-text-align: center ;}
-text-decoration: none;
-}
+text-align: center;}
+text-decoration:none;
+{
 /*Color for each brand*/
 
 /* Facebook */
@@ -22,3 +23,12 @@ text-decoration: none;
     background: #cb2027;
     color: white;
 }
+
+.title{
+    text-align: center;
+}
+
+header, main, footer {
+    max-width: 960px;
+    margin: 0 auto;
+  }

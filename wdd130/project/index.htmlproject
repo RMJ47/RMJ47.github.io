@@ -2,7 +2,7 @@
 <html lang="en-us">
 
 <head>
-<link rel='stylesheet' href='css/style.css">
+    <link rel='stylesheet' href='css/style.css">
     <meta charset="utf-8">
     <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="This is a hotel chain with the headquarters in Bethesda,MD.
@@ -28,7 +28,7 @@
                 <li><a href="reservations"Reservation"></a></li>             
                 </ul>
         </nav>
-        <
+        style="background-color:skyblue;">
     </header>
     <main>
         <section>
@@ -41,8 +41,9 @@
         <h2> </h2>
         <section>
         <p>
-        Lorem ipsumh doloe sit amet!</p>
-        <img src="http://placekitten.com/350/400"alt="">
+        Lorem ipsuhttmh doloe sit amet!</p>
+        <img src="https://churchofjesuschristtemples.org/washington-d.c.-temple/"alt="Temple">
+        
 
 
       <h3> </h3>

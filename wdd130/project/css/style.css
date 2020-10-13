@@ -21,9 +21,9 @@ nav{text-decoration:none;
     .fa-facebook {
         background: #3B5998;
         color: white;
-        max-width: 125px;
+        max-width:125px;
     }
-    .fa-facebook>img{ max-width: 125px;}
+    footer>img{ max-width:125px;}
 
     .fa-twitter {
         background: #55acee;

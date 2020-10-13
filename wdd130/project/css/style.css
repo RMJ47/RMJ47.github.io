@@ -23,6 +23,7 @@ nav{text-decoration:none;
         color: white;
         max-width: 125px;
     }
+    .fa-facebook>img{ max-width: 125px;}
 
     .fa-twitter {
         background: #55acee;

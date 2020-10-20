@@ -1,11 +1,62 @@
 html {
     background-color: skyblue;
+ 
+  title {
+       text-align> center;
+  }
 
+body {
+	background-color: #bbb;
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
 }
 
+header {
+	background-color: #fff;
+	padding: 5px 0;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+
+header img {
+	width: 125px;
+	height: auto;
+}
+
+.headings {
+	display: flex;
+	flex-direction: column;
+}
+
+.heading h1 {
+	font-size: 2rem;
+	color: rgb(5, 5, 172);
+	margin: 0;
+}
+
+.motto {
+	font-style: italic;
+	color: rgb(34, 139, 139);
+	font-size: 1rem;
+	letter-spacing: 1.5pt;
+}
 /*Style all Font icons*/
 
 .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50 px;
+    text-align: center;
+}
+ .fa-twitter {
+    padding: 20px;
+    font-size: 30px;
+    width: 50 px;
+    text-align: center;
+}
+.fa-pinterest {
     padding: 20px;
     font-size: 30px;
     width: 50 px;
@@ -28,16 +79,18 @@ nav{text-decoration:none;
     .fa-twitter {
         background: #55acee;
         color: white;
-    }
+        max-width:125px;
+    } 
+
 
     .fa-pinterest {
         background: #cb2027;
         color: white;
-    }
+        max-width:125px;
+}
+    
 
-    .title {
-        text-align: center;
-    }
+    
 
     header,
     main,

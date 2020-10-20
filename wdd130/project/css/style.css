@@ -1,96 +1,104 @@
 html {
     background-color: skyblue;
- 
-  title {
-       text-align> center;
-  }
 
-body {
-	background-color: #bbb;
-	padding: 0;
-	margin: 0;
-	font-size: 16px;
-}
+    title: {
+        text-align>center;
+    }
 
-header {
-	background-color: #fff;
-	padding: 5px 0;
-	display: flex;
-	align-items:center;
-	justify-content:center;
-}
+    body {
+        background-color: #bbb;
+        padding: 0;
+        margin: 0;
+        font-size: 16px;
+    }
 
-header img {
-	width: 125px;
-	height: auto;
-}
+    #header {
+        background-color: #fff;
+        padding: 5px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-.headings {
-	display: flex;
-	flex-direction: column;
-}
+    header img {
+        width: 125px;
+        height: auto;
+    }
 
-.heading h1 {
-	font-size: 2rem;
-	color: rgb(5, 5, 172);
-	margin: 0;
-}
+    .headings {
+        display: flex;
+        flex-direction: column;
+    }
 
-.motto {
-	font-style: italic;
-	color: rgb(34, 139, 139);
-	font-size: 1rem;
-	letter-spacing: 1.5pt;
-}
-/*Style all Font icons*/
+    .heading h1 {
+        font-size: 2rem;
+        color: rgb(5, 5, 172);
+        margin: 0;
+    }
 
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50 px;
-    text-align: center;
-}
- .fa-twitter {
-    padding: 20px;
-    font-size: 30px;
-    width: 50 px;
-    text-align: center;
-}
-.fa-pinterest {
-    padding: 20px;
-    font-size: 30px;
-    width: 50 px;
-    text-align: center;
-}
+    .motto {
+        font-style: italic;
+        color: rgb(34, 139, 139);
+        font-size: 1rem;
+        letter-spacing: 1.5pt;
+    }
 
-nav{text-decoration:none;
+    /*Style all Font icons*/
 
-}
+    .fa {
+        padding: 12px 16px;
+        font-size: 30px;
+        width: 50 px;
+        text-align: right;
+    }
+
+    .fa-twitter {
+        padding: 12px;
+        font-size: 30px;
+        width: 50 px;
+        text-align: right;
+    }
+
+    .fa-pinterest {
+        padding: 20px;
+        font-size: 30px;
+        width: 50 px;
+        text-align: right;
+    }
+
+    nav {
+        text-decoration: none;
+
+    }
+
     /*Color for each brand*/
 
     /* Facebook */
     .fa-facebook {
         background: #3B5998;
         color: white;
-        max-width:125px;
-}
-    footer>img{ max-width:125px;}
+        max-width: 100px;
+    }
+
+    footer>img {
+        max-width: 125px;
+    }
 
     .fa-twitter {
         background: #55acee;
         color: white;
-        max-width:125px;
-    } 
+        max-width: 100px;
+    }
 
 
     .fa-pinterest {
         background: #cb2027;
         color: white;
-        max-width:125px;
-}
-    
+        max-width: 100px;
+    }
 
-    
+
+
 
     header,
     main,

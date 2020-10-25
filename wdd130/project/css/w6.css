@@ -1,0 +1,35 @@
+body {
+    font-size: 16px;
+    background-color: #fff;
+    margin: 30px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Activity 1 styles */
+  .content1 {
+    
+  }
+  
+  .red1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  
+  .green1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+  }
+  
+  .gold1 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+  }
+  
+  .blue1 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+  }

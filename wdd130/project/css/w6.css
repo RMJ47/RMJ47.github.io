@@ -6,153 +6,135 @@ body {
   }
 
   /* Activity 2 styles */
-  .content1 {
+  content1 {
     display: grid;
     max-width: 100 px;
-    .item{
-      position:absolute;
-      top: 20px
-      right: 20px
-    }
+  }
   
-  
-  .red1 {
-    width: 25%;
-    height: 25px;
+ .red2 {
+    width: 100px;
+    height: 100px;
     background-color: red;
-    .item{
-      position:absolute;
-      top: 20px
-      right: 20px
-    }
-  
-  
-  .green1 {
-    width: 25px;
-    height: 25px;
-    background-color: green;
   }
-  
-  .gold1 {
-    width: 25px;
-    height:25px;
+  .green2 {
+    width: 100px;
+    height: 100px;
+    background-color: green
+    position absolute;
+    top:  125px;
+    left: 75px;
+  }
+ 
+  .gold2 {
+    width: 100px;
+    height:100px;
     background-color: gold;
-
-
-  }
+    position: absolute;
+    top: 175px;
+    left: 125px;
+   }
   
-  .blue1 {
-    width: 25%;
-    height: 25px;
+  .blue2 {
+    width: 100px;
+    height: 100px;
     background-color: blue;
-    
+    top: 225px;
+    left: 175px;
   } 
-   /* Activity 3 styles */
-   .content1 {
+  
+  /* Activity 3 styles */
+   content1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 600 px;
+    grid-template-columns: 250px 250px;
+    column-gap: 50px;
   }
   
-  .red1 {
-    width: 100%;
+  .red3 {
+    width: 550px;
     height: 100px;
     background-color: red;
     grid-column: 1 / 3;
   }
   
-  .green1 {
-    width: 200px;
+  .green3 {
+    width: 250px;
     height: 200px;
     background-color: green;
-    justify-items: center ;
   }
   
-  .gold1 {
+ .gold3 {
     width: 200px;
     height:200px;
     background-color: gold;
-    justify-items: center ;
 
   }
   
-  .blue1 {
-    width: 100%;
+  .blue3 {
+    width: 550px;
     height: 100px;
     background-color: blue;
     grid-column:  1 / 3 ;
   }
   /* Activity 4 styles */
-  .content1 {
+  content1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 600 px;
+    grid-template-columns: 300px 300px;
+    grid-row: 1fr;
   }
   
-  .red1 {
-    width: 100%;
-    height: 100px;
+  .red4 {
+    width: 300px;
+    height: 300px;
     background-color: red;
-    grid-column: 1 / 3;
+    grid-row: 1 / 4;
   }
   
-  .green1 {
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    justify-items: center ;
-  }
-  
-  .gold1 {
-    width: 200px;
-    height:200px;
-    background-color: gold;
-    justify-items: center ;
-
-  }
-  
-  .blue1 {
-    width: 100%;
+  .green4 {
+    width: 300px;
     height: 100px;
+    background-color: green;
+  }
+  
+  .gold4 {
+    width: 300px;
+    height:100px;
+    background-color: gold;
+  }
+  
+  .blue4 {
+    width: 300px;
+    height: 300px;
     background-color: blue;
     grid-column:  1 / 3 ;
   } 
    /* Activity 5 styles */
    .content1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 600 px;
   }
   
-  .red1 {
-    width: 100%;
+ .red5 {
+    width: 600px;
     height: 100px;
-    background-color: red;
-    grid-column: 1 / 3;
+    background-color: red
   }
   
-  .green1 {
-    width: 200px;
-    height: 200px;
+  .green5 {
+    width: 100px;
+    height: 100px;
     background-color: green;
-    justify-items: center ;
+    float: left;
+    margin-right:15px;
   }
   
-  .gold1 {
-    width: 200px;
-    height:200px;
+  .gold5 {
+    width: 600px;
+    height:210px;
     background-color: gold;
-    justify-items: center ;
-
   }
   
-  .blue1 {
-    width: 100%;
+  .blue5 {
+    width: 600px;
     height: 100px;
     background-color: blue;
-    grid-column:  1 / 3 ;
   } 
   
